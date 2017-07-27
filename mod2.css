@@ -1,0 +1,210 @@
+
+#box {
+	background : grey;
+	padding : 1px;
+	margin: 1px;
+	height: 100px;
+	position: relative;
+}
+
+#w1 {
+
+	background : red;
+	padding : 0px;
+	margin: 0px;
+	border : 5px;
+	width: 60px;
+	position: absolute;
+    right: 0px;
+}
+
+#w2 {
+
+	background : green;
+	padding : 0px;
+	margin: 0px;
+	border : 5px;
+	width: 40px;
+	position: absolute;
+    right: 0px;
+}
+
+#w3 {
+
+	background : yellow;
+	padding : 0px;
+	margin: 0px;
+	border : 5px;
+	width: 90px;
+	position: absolute;
+    right: 0px;
+
+}
+
+#box > p{
+	margin-top: 25px;
+}
+
+  .row {
+  width : 100%;
+}
+
+@media (min-width: 992px) {
+	.col-md-1{
+  	float: left;
+  	width: 8.33%;
+  }
+  .col-md-2{
+  	float: left;
+  	width: 16.66%;
+  }
+  .col-md-3{
+  	float: left;
+  	width: 25%;
+  }
+  
+  .col-md-4{
+  	float: left;
+  	width: 32%;
+  }
+  col-md-5{
+  	float: left;
+  	width: 41.65%;
+  }
+  .col-md-6{
+  	float: left;
+  	width: 50%;
+  }
+  .col-md-7{
+  	float: left;
+  	width: 58.31%;
+  }
+  .col-md-8{
+  	float: left;
+  	width: 66.64%;
+  }
+  .col-md-9{
+  	float: left;
+  	width: 74.97%;
+  }
+  .col-md-10{
+  	float: left;
+  	width: 83.3%;
+  }
+  .col-md-11{
+  	float: left;
+  	width: 91.63%;
+  }
+  .col-md-12{
+  	float: left;
+  	width: 100%;
+  }
+ 
+}
+
+@media  (min-width: 768px) and (max-width: 991px) {
+	.col-sm-1{
+  	float: left;
+  	width: 8.33%;
+  }
+  .col-sm-2{
+  	float: left;
+  	width: 16.66%;
+  }
+  .col-sm-3{
+  	float: left;
+  	width: 25%;
+  }
+  .col-sm-4{
+  	float: left;
+  	width: 32%;
+  }
+  .col-sm-5{
+  	float: left;
+  	width: 41.65%;
+  }
+  .col-sm-6{
+  	float: left;
+  	width: 49%;
+  }
+  .col-sm-7{
+  	float: left;
+  	width: 58.31%;
+  }
+  .col-sm-8{
+  	float: left;
+  	width: 66.64%;
+  }
+  .col-sm-9{
+  	float: left;
+  	width: 74.97%;
+  }
+  .col-sm-10{
+  	float: left;
+  	width: 83.3%;
+  }
+  .col-sm-11{
+  	float: left;
+  	width: 91.63%;
+  }
+  .col-sm-12{
+  	width: 99%;
+  	float: left;
+  }
+  
+}
+@media (max-width: 767px) {
+	.col-xs-1{
+  	float: left;
+  	width: 8.33%;
+  }
+  .col-xs-2{
+  	float: left;
+  	width: 16.66%;
+  }
+  .col-xs-3{
+  	float: left;
+  	width: 25%;
+  }
+  .col-xs-4{
+  	float: left;
+  	width: 32%;
+  }
+  .col-xs-5{
+  	float: left;
+  	width: 41.65%;
+  }
+  .col-xs-6{
+  	float: left;
+  	width: 50%;
+  }
+  .col-xs-7{
+  	float: left;
+  	width: 58.31%;
+  }
+  .col-xs-8{
+  	float: left;
+  	width: 66.64%;
+  }
+  .col-xs-9{
+  	float: left;
+  	width: 74.97%;
+  }
+  .col-xs-10{
+  	float: left;
+  	width: 83.3%;
+  }
+  .col-xs-11{
+  	float: left;
+  	width: 91.63%;
+  }
+	.col-xs-12{
+		width: 100%;
+		float: left;
+	}
+  
+}
+
+
+	
+
